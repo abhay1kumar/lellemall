@@ -1,0 +1,159 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: Poppins;
+}
+@media (max-width: 1450px) {
+  html {
+    font-size: 54%;
+  }
+}
+@media (max-width: 950px) {
+  html {
+    font-size: 48%;
+  }
+}
+body {
+  margin: 0;
+}
+p,
+a,
+h1,
+h2,
+span,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* ///////////////////// */
+.font12w5 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.links {
+  display: flex;
+  gap: 15px;
+  padding: 5px 0;
+  border-bottom: 1px solid #cbcbcb;
+}
+.link {
+  color: #243763;
+  /* border-bottom: 1px solid #cbcbcb; */
+}
+.link:hover {
+  border-bottom: 1px solid #ff6501;
+}
+.leleBestSelerHead {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  color: #243763;
+}
+.leleBestSeler {
+  padding: 20px;
+}
+
+.leleBestSelerPara {
+  color: #7d7d7d;
+}
+.leleBestSelerHead {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.leleBestSelerPara {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #7d7d7d;
+}
+.cardsheading {
+  font-size: 30px;
+  font-weight: 600;
+  color: #243763;
+  line-height: 45px;
+}
+.mainContainer {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.anyDepartMentHead {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #243763;
+  margin-bottom: 28px;
+}
+.anyDepartMentPara {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #7d7d7d;
+}
+.anyDepartSec {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cardsLink {
+  color: #ff6501;
+}
+
+.cardPrice {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff6501;
+  line-height: 24px;
+}
+.cardDetail {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  max-width: 270px;
+}
+.priceStar {
+  display: flex;
+  justify-content: space-between;
+
+  width: 270px;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  max-width: 294px;
+  align-items: center;
+  margin-top: 25px;
+  background: #ffffff;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  padding: 12px;
+}
+
+.crsection {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.cardsSection {
+  margin-bottom: 39px;
+}

@@ -1,0 +1,145 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: Poppins;
+}
+@media (max-width: 1450px) {
+  html {
+    font-size: 54%;
+  }
+}
+@media (max-width: 950px) {
+  html {
+    font-size: 48%;
+  }
+}
+body {
+  margin: 0;
+}
+p,
+a,
+h1,
+h2,
+span,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Footer */
+.list_h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.list_p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.footerContainer {
+  background: #243763;
+  padding: 87px 20px;
+}
+
+.foo_getG {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+}
+.globaltext {
+  line-height: 20px;
+}
+.foo_getp {
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 15px;
+}
+.foo_text_bar {
+  display: flex;
+  gap: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  padding: 5px 10px;
+  color: #fff;
+  width: fit-content;
+  align-items: center;
+}
+.foo_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerUpper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footerText {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  max-width: 300px;
+}
+.footerdWONBs {
+  display: flex;
+
+  gap: 28px;
+}
+.footerdWON {
+  max-width: 1200px;
+  margin: 50px auto;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.flexFooter {
+  display: flex;
+  gap: 10px;
+}
+.margintopf {
+  margin-top: 25%;
+}
+.footerTextLine {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.copyRightText {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+}
+.copyRight {
+  width: 100%;
+  padding: 30px 20px;
+  background: #142651;
+}
+/* Footer */

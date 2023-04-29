@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class="container grid_colonm">
+        <div class="personal_InfoLeft">
+            <div class="personal_line flex">
+                <p class="count_view flex activePoint">1</p>
+                <div class="line_personal">
+                    <div class="innerDiv"></div>
+                </div>
+                <p class="count_view flex">2</p>
+                <div class="line_personal"></div>
+                <p class="count_view flex">3</p>
+            </div>
+            <form>
+                <div class="personal_de">
+                    <p class="personalText">Personal information:</p>
+                    <div class="inputDivBox flex">
+                        <input class="inputBox" placeholder="Enter your name" type="text" />
+                        <input class="inputBox" placeholder="Email" type="text" />
+                    </div>
+                    <div class="createDiv flex">
+                        <input type="checkbox" />
+                        <p class="inputCreate">Create an account?</p>
+                    </div>
+                </div>
+
+                <div class="personal_de">
+                    <p class="personalText billing">Billing Details</p>
+                    <div class="inputDivBox flex">
+                        <input class="inputBox" placeholder="Ship to address" type="text" />
+                        <input class="inputBox" placeholder="Full Name" type="text" />
+                    </div>
+                    <div class="inputDivBox flex">
+                        <input class="inputBox" placeholder="Phone Number" type="text" />
+                        <input class="inputBox" placeholder="Address" type="text" />
+                    </div>
+                    <div class="inputDivBox flex">
+                        <input class="inputBox" placeholder="Select country" type="text" />
+                        <input class="inputBox" placeholder="City" type="text" />
+                    </div>
+
+                    <div class="inputDivBox flex">
+                        <input class="inputBox" placeholder="Pastel Code" type="text" />
+                    </div>
+                    <div class="createDiv flex">
+                        <input type="checkbox" />
+                        <p class="inputCreate"> Shio to a different address?</p>
+                    </div>
+                    <div class="inputDivBox flex">
+                        <input class="inputBox lastinput" placeholder="Order note" type="text" />
+                    </div>
+                    <div class="inputDivBox flex">
+                        <button class="buttonCon">Continue</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="price_detaileRight">
+            <div class="details_div">
+                <p class="priceDettext personalText">PRICE DETAILS</p>
+                <div class="flex priceBox borderBottom">
+                    <p class="priceText1 inputCreate">Total MRP</p>
+                    <p class="priceText1 inputCreate">375.21$</p>
+                </div>
+                <div class="flex priceBox">
+                    <p class="priceText1 inputCreate">Total</p>
+                    <p class="priceText1 inputCreate">375.21$</p>
+                </div>
+            </div>
+            <div class="discountSec flex">
+                <img src="/checkout-details/Assets/discount.png" alt="discount" width="30px" height="30px">
+                <a href="#" class="linkTag"> HAVE A PROMOTION CODE?</a>
+            </div>
+            <div class="details_div packagingDiv">
+                <p class="personalText">SHIPPING METHOD</p>
+
+                <div class="freeShipDiv">
+                    <div>
+                        <input class="radioButton" checked type="radio" name="shipping" id="">
+                    </div>
+                    <div class="freeShipping">
+                        <p class="freeShip1">Free Shipping</p>
+                        <p class="freeShip2">(10 - 12 days)</p>
+                    </div>
+                </div>
+                <div class="freeShipDiv">
+                    <div>
+                        <input class="radioButton" type="radio" name="shipping" id="">
+                    </div>
+                    <div class="freeShipping">
+                        <p class="freeShip1">Free Shipping + $10</p>
+                        <p class="freeShip2">(5 - 6 days)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="details_div packagingDiv">
+                <p class="personalText ">PACKAGING</p>
+
+                <div class="freeShipDiv">
+                    <div>
+                        <input class="radioButton" checked type="radio" name="pakaging" id="">
+                    </div>
+                    <div class="freeShipping">
+                        <p class="freeShip1">Default Packaging</p>
+                        <p class="freeShip2">Default packaging by store</p>
+                    </div>
+                </div>
+                <div class="freeShipDiv">
+                    <div>
+                        <input class="radioButton" type="radio" name="pakaging" id="">
+                    </div>
+                    <div class="freeShipping">
+                        <p class="freeShip1">Gift Packaging + $15</p>
+                        <p class="freeShip2">Exclusive Gift packaging</p>
+                    </div>
+                </div>
+                <div class="flex priceBox borderTop">
+                    <p class="priceText1 inputCreate">Final Price :</p>
+                    <p class="priceText1 inputCreate">375.21$</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+</body>
+
+</html>
